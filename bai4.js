@@ -1,0 +1,14 @@
+var F=499393;
+var a=F%10;
+var F=Math.floor(F/10);
+var b=F%10;
+var F=Math.floor(F/10);
+var c=F%10;
+var F=Math.floor(F/10);
+var d=F%10;
+var F=Math.floor(F/10);
+var e=F%10;
+var F=Math.floor(F/10);
+var g=F%10;
+var tong=a+b+c+d+e+g;
+console.log(tong);
